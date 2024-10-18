@@ -48,6 +48,7 @@
 
 # Conclusions
 
+![gif teste](gifs/gravação%20teste.gif)
 
 
 # Used Tecnologies
@@ -63,5 +64,3 @@
 ## [Da Font](https://www.dafont.com/pt/theme.php?cat=501&page=6)
 ## [Wix](https://manage.wix.com/account/websites?referralAdditionalInfo=Route)
 ## [Forms On Fire](https://www.formsonfire.com/)
-
-
