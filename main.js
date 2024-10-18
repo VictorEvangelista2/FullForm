@@ -9,6 +9,9 @@ form.addEventListener('submit', (event) => {
   }
 });
 
+
+
+
 const Form = document.querySelector('form');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -22,6 +25,17 @@ form.addEventListener('submit', (event) => {
     
   }
 });
+
+function validarSenha() {
+    const senha = document.getElementById("senha").value;
+    const regex = /^.{4,8}$/;
+  
+    if (!regex.test(senha)) {
+      alert("A senha deve conter de 4 a 8 caracteres.");
+    }
+}
+
+
 
 $(document).ready(function() {
     $('#dataNascimento').datepicker({

@@ -26,6 +26,7 @@
                 <label for="inputZip" class="form-label">Nome</label>
                 <input type="text" class="form-control" id="nome" placeholder="Fadinha Rosa" required>
             </div>
+        
             
             <div class="mb-3 col-md-2 me-3">
                 <label for="email" class="form-label">Email</label>
@@ -39,18 +40,35 @@
             <p id="message"></p>
 
             
+    
+        </div>
 
+        <div class="d-flex" style="margin-top: 1%; justify-content: center;">
+
+            <div class="mb-3 col-md-2 me-3">
+                <label for="sobrenome" class="form-label">Sobrenome</label>
+                <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Silva" required>
+            </div>
+
+            <div class="mb-3 col-md-2 me-3">
+                <label for="password" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="senha" onblur="validarSenha()" required>
+            </div>
+
+            <div class="col-md-2 mb-3 me-">
+                <label class="form-label">Data Nascimento</label>
                 <input type="text" class="form-control" id="dataNascimento" placeholder="Data de Nascimento">
+            </div>
+
             
-        
+            
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.pt-BR.min.js"></script>
             <script>
-                
             </script>
-            
+
         </div>
 
             <div class="d-flex" style="margin-top: 1%; justify-content: center;">
